@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.frame{
+    height:84px;
+    width:1920px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menu{
+    display:flex;
+    height:44px;
+    width:1800px;
+}
+.left{
+    flex:none;
+    width:200px;
+    font-size:20px;
+}
+.right{
+    display:flex;
+    justify-content:flex-end;
+    flex:auto;
+}
+.item{
+    flex:none;
+    width:80px;
+    margin-right:20px;
+    text-align:center;
+    display:block;
+    font-size:20px;
+}
+.Banner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:528px;
+    width:1920px;
+}
+.BannerLeft{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:128px;
+    width:526px;
+}
+.BannerRight{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:368px;
+    width:746px;
+}
+img.BannerRight{
+    height:352px;
+    width:564px;
+}
+.Comment{
+    height:217px;
+    width:1920px;
+    display:flex;
+    justify-content:center;
+}
+.CommentCard{
+    height:177px;
+    width:1296px;
+    display:flex;
+    align-items:center;
+}
+.TurnCard{
+    height:177px;
+    width:416px;
+}
+.Rectangle{
+    height:120px;
+    width:1920px;
+}
+.Find{
+    background-color: #F5F5FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:460px;
+    width:1920px;
+}
+.MobileLeft{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+    width:636px;
+}
+img.Mobile{
+    background-color: #F5F5FF;
+    height:360px;
+    width:360px;
+}
+.FindApp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:184px;
+    width:636px;
+}
+.FindAppText{
+    height:88px;
+    width:636px;
+}
+.Special{
+    display:flex;
+    height:509px;
+    width:1920px;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.SpecialApp{
+    height:38px;
+    width:1920px;
+    text-align:center;
+    justify-content:center;
+    font-size:32px;
+}
+.SpecialCard{
+    height:271px;
+    width:1296px;
+    display:flex;
+    align-items:center;
+}
+.SpecialAppCard{
+    height:271px;
+    width:306px;
+}
+.Wishes{
+    background-color: #F9F9FA;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:480px;
+    width:1920px;
+}
+.WishesApp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:184px;
+    width:636px;
+}
+.WishesAppText{
+    height:88px;
+    width:636px;
+}
+.WishesRight{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+    width:636px;
+}
+img.WishesMan{
+    background-color: #F5F5FF;
+    height:360px;
+    width:360px;
+}
+.Footer{
+    height:128px;
+    width:1920px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #F2F2F5;
+}
+.FooterMenu{
+    display:flex;
+    height:48px;
+    width:1296px;
+}
+.Footerleft{
+    flex:none;
+    width:598.5px;
+    height:48px;
+}
+.GoodApp{
+    flex:none;
+    width:189px;
+    height:44px;
+    font-size:12px;
+}
+.FooterIcon{
+    display:flex;
+    justify-content:flex-end;
+    flex:auto;
+    width:184px;
+    height:48px;
+}
+.FooterRight{
+    display:flex;
+    justify-content:flex-end;
+    flex:auto;
+    width:472px;
+    height:24px;
+}
+.FooterItem{
+    flex:none;
+    width:82px;
+    height:24px;
+    margin-right:20px;
+    text-align:center;
+    display:block;
+    font-size:20px;
+}
