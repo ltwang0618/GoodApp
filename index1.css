@@ -60,13 +60,17 @@ table {
 }
 .left{
     flex:none;
-    width:200px;
+    width:300px;
     font-size:20px;
+    align-items: center;
+    text-align:center;
+    line-height: 44px;
 }
 .right{
     display:flex;
     justify-content:flex-end;
     flex:auto;
+    line-height: 44px;
 }
 .item{
     flex:none;
@@ -84,11 +88,20 @@ table {
     width:1920px;
 }
 .BannerLeft{
-    display:flex;
     justify-content:center;
     align-items:center;
     height:128px;
     width:526px;
+}
+.BannerLeftUp{
+    height:60px;
+    width:526px;
+    font-size:40px;
+}
+.BannerLeftdown{
+    height:60px;
+    width:526px;
+    font-size:20px;
 }
 .BannerRight{
     display:flex;
@@ -135,11 +148,13 @@ img.BannerRight{
     align-items:center;
     height:400px;
     width:636px;
+    margin:100px;
 }
 img.Mobile{
     background-color: #F5F5FF;
     height:360px;
     width:360px;
+    margin:100px;
 }
 .FindApp{
     display:flex;
@@ -147,6 +162,25 @@ img.Mobile{
     align-items:center;
     height:184px;
     width:636px;
+    margin:100px;
+}
+.FindAppUp{
+    height:38px;
+    width:206px;
+    font-size:32px;
+    margin:20px;
+}
+.FindAppdown{
+    height:30px;
+    width:636px;
+    font-size:20px;
+    margin:20px;
+}
+.FindAppButton{
+    height:56px;
+    width:526px;
+    font-size:20px;
+    margin:20px;
 }
 .FindAppText{
     height:88px;
@@ -192,6 +226,24 @@ img.Mobile{
     height:184px;
     width:636px;
 }
+.WishesAppUp{
+    height:38px;
+    width:349px;
+    font-size:32px;
+    margin:20px;
+}
+.WishesAppDown{
+    height:30px;
+    width:636px;
+    font-size:20px;
+    margin:20px;
+}
+.WishesAppButton{
+    height:56px;
+    width:526px;
+    font-size:20px;
+    margin:20px;
+}
 .WishesAppText{
     height:88px;
     width:636px;
@@ -219,36 +271,42 @@ img.WishesMan{
 .FooterMenu{
     display:flex;
     height:48px;
-    width:1296px;
+    width:60%;
+    justify-content:center;
+    align-items:center;
 }
 .Footerleft{
-    flex:none;
-    width:598.5px;
+    display:flex;
+    justify-content:flex-start;
     height:48px;
+    width:50%;
+    font-size:12px;
+    flex-direction:row;
+    flex-wrap: nowrap;
 }
 .GoodApp{
-    flex:none;
-    width:189px;
+    display:flex;
     height:44px;
-    font-size:12px;
+    font-size:44px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+img.logo{
+    height:44px;
+    text-align:center;
 }
 .FooterIcon{
     display:flex;
-    justify-content:flex-end;
-    flex:auto;
-    width:184px;
-    height:48px;
+    height:44px;
 }
 .FooterRight{
     display:flex;
     justify-content:flex-end;
-    flex:auto;
-    width:472px;
-    height:24px;
+    width:50%;
 }
 .FooterItem{
     flex:none;
-    width:82px;
     height:24px;
     margin-right:20px;
     text-align:center;
