@@ -46,12 +46,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+    text-decoration:none;
+    color:black;
+}
+
 .frame{
     height:84px;
     width:1920px;
     display:flex;
     justify-content:center;
     align-items:center;
+    box-shadow:0px 10px rgba(37, 43, 57, 0.1);
 }
 .menu{
     display:flex;
@@ -59,12 +65,13 @@ table {
     width:1800px;
 }
 .left{
-    flex:none;
+    display:flex;
     width:300px;
-    font-size:20px;
+    font-size:28px;
     align-items: center;
     text-align:center;
     line-height: 44px;
+    margin-left:150px;
 }
 .right{
     display:flex;
@@ -271,18 +278,20 @@ img.WishesMan{
 .FooterMenu{
     display:flex;
     height:48px;
-    width:60%;
+    width:1800px;
     justify-content:center;
     align-items:center;
+    text-align:center;
+    font-size:28px;
+    margin-left:150px;
 }
 .Footerleft{
     display:flex;
-    justify-content:flex-start;
     height:48px;
-    width:50%;
-    font-size:12px;
-    flex-direction:row;
-    flex-wrap: nowrap;
+    width:600px;
+    font-size:28px;
+    align-items: center;
+    text-align:center;
 }
 .GoodApp{
     display:flex;
@@ -296,14 +305,20 @@ img.logo{
     height:44px;
     text-align:center;
 }
-.FooterIcon{
+img.FooterLeftIcon{
+    text-align:center;
+}
+.FooterLeftIcon{
     display:flex;
-    height:44px;
+    height:48px;
+    text-align:center;
+    align-items: center;
 }
 .FooterRight{
     display:flex;
     justify-content:flex-end;
-    width:50%;
+    flex:auto;
+    line-height: 44px;
 }
 .FooterItem{
     flex:none;
@@ -312,4 +327,5 @@ img.logo{
     text-align:center;
     display:block;
     font-size:20px;
+    width:80px;
 }
