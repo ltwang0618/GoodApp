@@ -221,7 +221,6 @@ img.Mobile{
     justify-content:center;
     align-items:center;
     height:480px;
-    width:1920px;
 }
 .WishesApp{
     display:flex;
@@ -266,7 +265,6 @@ img.WishesMan{
 }
 .Footer{
     height:128px;
-    width:1920px;
     display:flex;
     justify-content:center;
     align-items:center;
