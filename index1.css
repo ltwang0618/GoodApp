@@ -195,14 +195,12 @@ img.Mobile{
 .Special{
     display:flex;
     height:509px;
-    width:1920px;
     justify-content:center;
     align-items:center;
     flex-wrap: wrap;
 }
 .SpecialApp{
     height:38px;
-    width:1920px;
     text-align:center;
     justify-content:center;
     font-size:32px;
