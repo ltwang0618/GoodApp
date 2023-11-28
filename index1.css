@@ -233,6 +233,7 @@ img.Mobile{
     width:1296px;
     display:flex;
     align-items:center;
+    justify-content:center;
 }
 .SpecialAppCard{
     height:271px;
